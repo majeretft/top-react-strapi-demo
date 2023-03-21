@@ -36,6 +36,7 @@ const Page = () => {
               <Image
                 fluid
                 src="https://cdn-icons-png.flaticon.com/512/9995/9995237.png"
+                id="#section-0"
               ></Image>
             </Col>
             <Col md="3">

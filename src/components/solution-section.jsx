@@ -33,7 +33,7 @@ const Highlight = styled.span`
 const Component = () => {
   return (
     <Container>
-      <SectionStyled>
+      <SectionStyled id="section-2">
         <Row className="mb-5 align-items-center">
           <Col md="6">
             <HeaderStyled>

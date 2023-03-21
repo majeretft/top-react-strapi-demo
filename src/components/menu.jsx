@@ -54,10 +54,9 @@ const Component = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <LinkStyled href="#">Что мы создаем</LinkStyled>
-              <LinkStyled href="#">Ресурсы</LinkStyled>
-              <LinkStyled href="#">Масштабирование</LinkStyled>
-              <LinkStyled href="#">Партнеры</LinkStyled>
+              <LinkStyled href="#section-0">Что мы создаем</LinkStyled>
+              <LinkStyled href="#section-1">Ресурсы</LinkStyled>
+              <LinkStyled href="#section-2">Масштабирование</LinkStyled>
             </Nav>
             <Nav>
               {isLogged && (
