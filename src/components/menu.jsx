@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCogs, faUser, faClose } from "@fortawesome/free-solid-svg-icons";
@@ -41,7 +42,7 @@ const Component = () => {
     <>
       <Navbar bg="light" expand="md">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand to="/" as={NavLink}>
             <img
               src="https://cdn-icons-png.flaticon.com/512/4341/4341069.png"
               width="30"
@@ -61,7 +62,7 @@ const Component = () => {
             <Nav>
               {isLogged && (
                 <>
-                  <Nav.Link href="#">
+                  <Nav.Link to="/admin" as={NavLink}>
                     <Button variant="outline-dark">
                       <FontAwesomeIcon icon={faCogs} />
                       Управление
